@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <style>
+        @font-face {
+        font-family: 'NEXON Lv2 Gothic';
+        src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        }
+        
+        @font-face {
+        font-family: 'Cafe24Ohsquareair';
+        src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/Cafe24Ohsquareair.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        }
+
+        html { 
+            background: url(./my_images/back4.jpg) no-repeat fixed center/cover; color:white;
+            font-family:"NEXON Lv2 Gothic";
+        }
+        h1 { font-family:"Cafe24Ohsquareair"; font-size: 50px; }
+        
+        .input {
+            box-sizing: border-box; 
+            width: 100%;
+            padding: 10px 20px;
+            margin: 5px 0;
+            border-radius: 10px;
+        }
+
+        .input:focus{
+            background-color: lightgrey;
+            border:3px double black;
+        }
+        button {
+            width: 150px;
+            background-color:white;
+            color:black;
+            padding: 15px 20px;
+            cursor:pointer;
+            text-align: center;
+            border-radius: 20px;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        p#center {
+            text-align: center;
+        }
+        button:hover{
+            background-color:lightgrey;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <h1>Sign Up</h1>
+        <p> ID <input type="text" class="input" maxlength="20" placeholder="type your id"></p>
+
+        <p> Password <input type="password"  class="input" maxlength="20" placeholder="type your password"></p>
+
+    <p id="center"><button>Enter</button></p>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face {
+            font-family: 'Cafe24Ohsquareair';
+            src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/Cafe24Ohsquareair.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        html { background: url(./my_images/back3.jpg)         no-repeat fixed center/cover;
+        }
+        h1 {
+            font-size:10vh; color: beige; background-color: rgba(0, 0, 0, 0.7); 
+            font-family: "Cafe24Ohsquareair";
+        }
+        a {
+        color: beige;
+        text-decoration: none;
+        margin-right: 10px;
+        }
+        /* 마우스 오버 시 언더라인 추가 */
+        a:hover {
+            text-decoration: underline; 
+            font-weight: bold;
+        }
+        /* iframe 스타일 */
+        .iframe-container {
+            flex-grow: 1;
+            width: 80%; 
+            height: 80vh; 
+            margin: 30px auto; 
+            border: none; 
+        }
+    </style>
+    <title>북마크</title>
+
+</head>
+<body>
+    <h1>Bookmark</h1>
+    <div class="bookmark-list">
+        <dl>
+            <!--ifram으로 하고 싶었으나... 보안정책으로 인해 error-->
+            <dt><a href="https://github.com/pokmonlove"  target="_black">Gitgub</a></dt><br>
+            <dt><a href="https://www.w3schools.com/" target="_blck">w3schools</a></dt><br>
+            <dt><a href="https://developer.mozilla.org/en-US/" target="_black"> mozilla</a></dt>
+        </dl>
+    </div>
+    
+</body>
+</html>
